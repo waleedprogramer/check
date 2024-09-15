@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Hackathon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>Dynamic Resume Builder</h1>
+
+      <form action="Resume">
+        <fieldset>
+          <legend>personal Information</legend>
+          <label for="fullname"> FullName:</label>
+          <input type="text" placeholder=" Enter your name here...." required />
+          <label for="email">Email:</label>
+          <input type="email" placeholder="Enter your email here...." required />
+          <label for="tel">Contact:</label>
+          <input type="tel" placeholder=" Enter your number here..." required />
+
+        </fieldset>
+        <fieldset>
+            <legend>Education</legend>
+            <label for="eductaion">Education</label>
+            <textarea name="eductaion" id="eductaion" rows="5"></textarea>
+    
+        </fieldset>
+        <fieldset>
+            <legend>Experience</legend>
+            <label for="experience">Experience</label>
+            <textarea name="experience" id="experience" rows="5"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="skills">skills</label>
+            <textarea name="skills" id="skills" rows="5"></textarea>
+            
+    
+        </fieldset>
+  
+        <button type="submit"> Download Resume</button>
+        </div>
+      </form>
+      <script src="app.ts">app.ts</script>
+    </div>
+  </body>
+</html>
