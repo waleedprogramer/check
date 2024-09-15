@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align:center;
+    margin: auto;
+    width: 50%;
+    
+
+  }
+  
+  h1 {
+    color: #5e2bd3;
+    margin-bottom: 20px;
+  }
+  
+  fieldset {
+    border: 5px solid #410cbd;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 50%;
+    padding: 5px;
+    border: 2px solid #113952;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: rgb(238, 239, 240);
+    padding: 10px 20px;
+    border: 5px solid blue;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #9ae70c;
+  }
+
+
+  @media print{
+    @page{
+        margin:0;
+        size:A4;   
+    }
+    *{
+        -webkit-print-color-adjust:exact;
+
+    }
+}
